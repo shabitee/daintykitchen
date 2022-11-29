@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  color: orange;
+  text-align: center;
+  display:block;
+  font-size: 2.5rem;
+  letter-spacing:2px;
+  font-family: cursive;
+  
+}
+
+.top-text{
+  display:block;
+    font-size: 1.8rem;
+    letter-spacing:2px;
+    font-family: "Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    text-align: center;
+}
+.text1, .text2, .text3, .text4 {
+  margin-left:30px;
+  display:none;
+}
+
+.listing4{
+  margin-left:30px;
+  display:none;
+}
+.listing1, .listing2, .listing3{
+  top: 0;
+  left: 0;
+  right:0px;
+  bottom: 0;
+  width:95%;
+  margin-left: 25px;;
+  box-sizing: border-box;
+  text-align: center;
+  background: grey;
+  color: orange;
+  font-size: large;
+  display:block;
+  cursor:pointer;
+  
+}
+
+.listing1:hover{
+  background-color:white;
+}
+
+.listing2:hover{
+  background-color:white;
+}
+.listing3:hover{
+  background-color:white;
+}
+.products{
+  box-sizing: border-box;
+  align-content: center;
+}
+
+#hero-image1{
+  float:left;
+  width:600px;
+  padding-left:20px;
+  margin-left:15px;
+ 
+}
+
+#hero-image2{
+  float:centre;
+  width:600px;
+  margin-top:-4px;
+  height:363px;
+  margin-left:35px;
+  
+}
+
+#hero-image3{
+  float:right;
+  width:600px;
+  margin-top:-500px;
+  height:363px;
+  margin-right:10px;
+}
+
+.product-info1{
+  position:absolute;
+  padding-left:150px;
+  bottom:150px;
+    
+
+}
+.product-info2{
+  text-align: center;
+  color:black;
+  margin-top:90px;
+  padding-right:80px;
+}
+
+.product-info3{
+  text-align:right;
+  margin-right: 250px;
+  margin-top:-55px
+}
